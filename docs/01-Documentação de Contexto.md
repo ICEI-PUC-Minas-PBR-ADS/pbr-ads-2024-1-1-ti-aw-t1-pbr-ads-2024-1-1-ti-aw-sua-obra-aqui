@@ -17,17 +17,20 @@ Desenvolvimento de uma plataforma online, o "Obra Aqui", que conecta empresas, c
 A plataforma oferecerá informações técnicas, facilitará a solicitação de orçamentos e disponibilizará conteúdo educativo para clientes interessados em realizar pequenas obras por conta própria.
 
 ## Objetivos
+Desenvolver um software para solucionar os desafios enfrentados no setor da construção civil, melhorando a comunicação entre empresas, clientes e mão de obra e reduzindo os problemas relacionados a prazos, infraestrutura e orçamentos imprecisos.
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
-
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Objetivos Específicos:
+1.Implementar uma plataforma online intuitiva e de fácil acesso, que conecte empresas do ramo da construção civil, clientes em busca de realizar obras ou reformas e profissionais qualificados.
+2.Desenvolver funcionalidades específicas para fornecer informações técnicas aos clientes, facilitar a solicitação de orçamentos em lojas parceiras e disponibilizar conteúdo educativo para aqueles que desejam realizar pequenas obras por conta própria.
+3.Aprimorar a infraestrutura das construções civis no Brasil, integrando tecnologias e práticas modernas que promovam a eficiência energética, a sustentabilidade e a segurança das obras realizadas através da plataforma "Obra Aqui".
+4.Promover a conscientização dos clientes sobre o progresso e os detalhes de suas obras, oferecendo ferramentas de acompanhamento em tempo real e relatórios periódicos que destacam o andamento do projeto, os gastos envolvidos e quaisquer eventos relevantes que afetem a execução da obra.
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+A escolha de trabalhar com a aplicação "Obra Aqui" é motivada pela necessidade urgente de solucionar os desafios enfrentados no setor da construção civil no Brasil. Este setor desempenha um papel fundamental na economia do país, contribuindo significativamente para o crescimento e o desenvolvimento, mas enfrenta uma série de obstáculos que comprometem sua eficiência e qualidade.
+Através do desenvolvimento deste software, buscamos não apenas simplificar a comunicação entre empresas, clientes e mão de obra, mas também melhorar a infraestrutura das construções civis no Brasil. A integração de tecnologias e práticas modernas é crucial para impulsionar a sustentabilidade, a eficiência energética e a segurança das obras, impactando positivamente o meio ambiente e a qualidade de vida das pessoas.
+Além disso, a conscientização dos clientes sobre o andamento e os detalhes de suas obras é essencial para promover a transparência, a confiança e a satisfação do cliente. Ao oferecer ferramentas de acompanhamento em tempo real e relatórios detalhados, pretendemos empoderar os clientes, permitindo que eles participem ativamente do processo de construção e tomem decisões informadas.
+Portanto, a escolha dos objetivos específicos, como melhorar a infraestrutura das construções civis e deixar o cliente "consciente" do que acontece em sua obra, reflete nossa missão de abordar os problemas existentes de forma abrangente e promover uma transformação positiva no setor da construção civil brasileira.
 
 O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
 
