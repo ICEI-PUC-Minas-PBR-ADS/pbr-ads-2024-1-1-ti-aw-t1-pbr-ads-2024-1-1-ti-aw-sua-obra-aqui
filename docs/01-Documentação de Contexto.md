@@ -55,6 +55,6 @@ Entusiastas e Amadores:
 -Podem ter conhecimento básico ou intermediário em construção e manutenção residencial.
 -Geralmente estão dispostos a aprender e buscar orientações técnicas para realizar suas próprias obras com sucesso.
 
-![PERSONA](docs/img/Captura de tela 2024-04-21 115015.png)
+![PERSONA](/img/Captura de tela 2024-04-21 115015.png)
 
 
