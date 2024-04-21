@@ -3,37 +3,68 @@
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
 
-Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
+Metodologia de Trabalho:
+Scrum Adaptado:
+O grupo adotará uma abordagem adaptada do Scrum para gerenciar o projeto. Serão realizadas reuniões semanais, incluindo "daily scrums" aos domingos, para discutir o progresso, identificar impedimentos e planejar as atividades da semana.
+
+Iterações Curtas:
+O projeto será dividido em iterações curtas, geralmente de uma semana, chamadas de sprints. Cada sprint terá objetivos claros e entregas específicas.
+
+Entrega Contínua:
+O objetivo é alcançar uma entrega contínua de valor, com incrementos funcionais sendo entregues a cada final de sprint.
+
+Ambientes de Trabalho Utilizados:
+
+Ambiente de Desenvolvimento:
+Os membros da equipe utilizarão principalmente o Replit e o Visual Studio Code como ambientes de desenvolvimento. O Replit será utilizado para facilitar a colaboração em tempo real e permitir que os membros da equipe trabalhem simultaneamente no código. O Visual Studio Code será utilizado por aqueles que preferem um ambiente de desenvolvimento local mais personalizado.
+
+Gestão do Código Fonte:
+
+Repositório Git:
+O código fonte será hospedado em um repositório Git no GitHub para controle de versão e colaboração entre os membros da equipe.
+Ferramenta de Gestão de Projetos:
+A gestão do projeto será feita principalmente por meio de um quadro Kanban, que será utilizado para organizar as tarefas, acompanhar o progresso e priorizar o trabalho. A ferramenta Kanban será integrada ao GitHub para facilitar a sincronização entre o progresso do desenvolvimento e a gestão das tarefas.
 
 ## Controle de Versão
 
-A ferramenta de controle de versão adotada no projeto foi o
-[Git](https://git-scm.com/), sendo que o [Github](https://github.com)
-foi utilizado para hospedagem do repositório.
+Configuração de Branches:
 
-O projeto segue a seguinte convenção para o nome de branches:
+Branch main:
+Esta é a branch principal do projeto, que contém a versão estável e testada do software. Ela reflete o estado atual do software pronto para produção.
 
-- `main`: versão estável já testada do software
-- `unstable`: versão já testada do software, porém instável
-- `testing`: versão em testes do software
-- `dev`: versão de desenvolvimento do software
+Branch unstable:
+Esta branch contém uma versão já testada do software, mas que ainda pode conter instabilidades ou bugs. Ela é usada para testes adicionais antes de ser mesclada na branch main.
 
-Quanto à gerência de issues, o projeto adota a seguinte convenção para
-etiquetas:
+Branch testing:
+Esta branch contém a versão do software em fase de testes. Aqui, as funcionalidades são testadas antes de serem consideradas estáveis o suficiente para serem mescladas na branch unstable.
 
-- `documentation`: melhorias ou acréscimos à documentação
-- `bug`: uma funcionalidade encontra-se com problemas
-- `enhancement`: uma funcionalidade precisa ser melhorada
-- `feature`: uma nova funcionalidade precisa ser introduzida
+Branch dev:
+Esta é a branch de desenvolvimento do projeto, onde todas as novas funcionalidades são implementadas e testadas antes de serem mescladas nas branches testing ou unstable.
 
-Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
+Configuração de Etiquetas (Tags):
 
-> **Links Úteis**:
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
->  - [Comparando fluxos de trabalho](https://www.atlassian.com/br/git/tutorials/comparing-workflows)
-> - [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
-> - [The gitflow workflow - in less than 5 mins](https://www.youtube.com/watch?v=1SXpE08hvGs)
+Etiqueta documentation:
+Utilizada para marcar issues relacionadas a melhorias ou acréscimos à documentação do projeto.
+
+Etiqueta bug:
+Utilizada para marcar issues relacionadas a problemas identificados no software, como bugs ou erros.
+
+Etiqueta enhancement:
+Utilizada para marcar issues relacionadas a melhorias ou otimizações em funcionalidades existentes no software.
+
+Etiqueta feature:
+Utilizada para marcar issues relacionadas a novas funcionalidades que precisam ser introduzidas no software.
+
+Gerência de Commits, Merges e Issues:
+
+Commits:
+Os commits são realizados de forma granular e descritiva, seguindo as melhores práticas de mensagens de commit, como usar um formato claro e informativo que descreve as mudanças realizadas.
+
+Merges:
+Os merges entre branches são realizados de forma cuidadosa, garantindo que todas as alterações sejam devidamente revisadas e testadas antes de serem integradas na branch de destino.
+
+Issues:
+As issues são gerenciadas de forma colaborativa, com os membros da equipe atribuindo, comentando e resolvendo problemas conforme necessário. As etiquetas são utilizadas para categorizar e priorizar as issues, ajudando na organização e acompanhamento do progresso do projeto.
 
 ## Gerenciamento de Projeto
 
