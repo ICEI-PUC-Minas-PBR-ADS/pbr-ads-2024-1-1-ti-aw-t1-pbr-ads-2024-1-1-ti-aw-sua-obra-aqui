@@ -34,13 +34,27 @@ Portanto, a escolha dos objetivos específicos, como melhorar a infraestrutura d
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+Empresas do Ramo da Construção Civil:
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+-Possuem conhecimento técnico sólido sobre construção e gestão de obras.
+-Podem variar em tamanho, desde pequenas empresas familiares até grandes empreiteiras.
+-Dependendo do porte, podem ter diferentes níveis de familiaridade com tecnologia, mas geralmente estão abertas a soluções que otimizem seus processos e aumentem sua eficiência.
 
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+Clientes em Busca de Realizar Obras ou Reformas:
+-Podem ter conhecimento básico sobre construção, mas geralmente não são especialistas técnicos.
+-Podem variar em termos de experiência prévia com obras, desde iniciantes até pessoas que já realizaram várias reformas.
+-Procuram por praticidade, transparência e qualidade no processo de contratação e execução de obras.
+
+Profissionais Qualificados (Mão de Obra):
+-Incluem engenheiros, arquitetos, mestres de obras, pedreiros, eletricistas, encanadores, entre outros.
+-Possuem amplo conhecimento técnico e experiência prática em suas áreas de atuação.
+-Podem variar em relação ao acesso e familiaridade com tecnologia, mas muitos estão abertos a soluções que facilitem sua comunicação com clientes e empresas.
+
+Entusiastas e Amadores:
+-São pessoas interessadas em realizar pequenos trabalhos por conta própria em suas casas.
+-Podem ter conhecimento básico ou intermediário em construção e manutenção residencial.
+-Geralmente estão dispostos a aprender e buscar orientações técnicas para realizar suas próprias obras com sucesso.
+-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+
+
+
