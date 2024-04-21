@@ -70,39 +70,51 @@ As issues são gerenciadas de forma colaborativa, com os membros da equipe atrib
 
 ### Divisão de Papéis
 
-Apresente a divisão de papéis entre os membros do grupo.
+Product Owner (Dono do Produto):
+Diogo Ramos
 
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu 
-> Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
+Scrum Master:
+Murilo Diniz
+
+Time de desenvolvimento:
+Cauã Melo
+Carlos Lemos
+João Pedro 
 
 ### Processo
 
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
- 
-> **Links Úteis**:
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+Planejamento de Sprint:
+No início de cada sprint, nossa equipe realiza uma reunião de planejamento para definir os objetivos e selecionar as tarefas a serem realizadas durante o sprint. Isso inclui a análise e seleção de itens do backlog do produto que serão trabalhados durante o período. Nossa meta é garantir que tenhamos um plano claro e alcançável para o sprint.
+
+Reuniões Diárias (Daily Scrum):
+Durante o sprint, realizamos reuniões diárias curtas, conhecidas como daily scrum. Nestas reuniões, discutimos o progresso do trabalho, identificamos quaisquer impedimentos que estejam afetando nossa produtividade e ajustamos o plano conforme necessário para garantir que possamos alcançar nossos objetivos dentro do prazo estabelecido. As reuniões são realizadas de forma rápida e eficiente, geralmente com duração de 15 minutos, para garantir que todos os membros da equipe estejam alinhados.
+
+Revisão de Sprint:
+Ao final de cada sprint, organizamos uma revisão para demonstrar o trabalho concluído aos stakeholders e obter feedback sobre o que foi entregue. Durante esta reunião, discutimos os resultados do sprint, destacamos as realizações e discutimos eventuais adaptações que possam ser necessárias para os próximos sprints. Nosso objetivo é garantir que estejamos alinhados com as expectativas dos stakeholders e prontos para seguir em frente com novos desafios.
+
+Retrospectiva de Sprint:
+Após a revisão do sprint, realizamos uma retrospectiva para analisar o processo de trabalho durante o sprint. Nesta reunião, identificamos pontos fortes que devemos manter e áreas de melhoria que podemos abordar para aumentar nossa eficiência e qualidade no próximo sprint. Nosso objetivo é aprender com nossas experiências passadas e implementar melhorias contínuas em nosso processo de trabalho.
+
+Ferramentas Online para Acompanhamento do Projeto:
+
+Quadro Kanban:
+Utilizamos uma ferramenta online de quadro Kanban para gerenciar nosso backlog do produto e acompanhar o progresso do trabalho durante o sprint. Os cartões no quadro representam as tarefas a serem realizadas e podem ser movidos entre as colunas à medida que são concluídas. Isso nos permite visualizar facilmente o status de cada tarefa e garantir que nada seja esquecido.
+
+Ferramentas de Comunicação:
+Para facilitar a comunicação entre os membros da equipe, utilizamos ferramentas de comunicação online, como Discord e WhatsApp. Isso nos permite trocar mensagens instantâneas, compartilhar arquivos e realizar chamadas de vídeo conforme necessário. Uma comunicação clara e eficaz é essencial para o sucesso do nosso projeto.
+
+Repositório Git:
+Nosso código fonte é versionado em um repositório Git hospedado no GitHub. Isso nos permite colaborar no desenvolvimento de forma controlada e organizada. Criamos branches para desenvolver novas funcionalidades e realizamos merges conforme necessário para integrar as alterações ao código principal. Isso nos ajuda a manter um histórico completo das alterações e a garantir a estabilidade e qualidade do nosso software.
 
 ### Ferramentas
 
 As ferramentas empregadas no projeto são:
 
-- Editor de código.
-- Ferramentas de comunicação
-- Ferramentas de desenho de tela (_wireframing_)
+Canvas:
+Utilizamos o Canvas como uma ferramenta de brainstorming e planejamento estratégico. O Canvas nos ajuda a visualizar e organizar nossas ideias de forma clara e concisa, permitindo que identifiquemos oportunidades, desafios e soluções para o projeto.
 
-O editor de código foi escolhido porque ele possui uma integração com o
-sistema de versão. As ferramentas de comunicação utilizadas possuem
-integração semelhante e por isso foram selecionadas. Por fim, para criar
-diagramas utilizamos essa ferramenta por melhor captar as
-necessidades da nossa solução.
+Replit:
+O Replit é uma plataforma online de desenvolvimento integrado (IDE) que utilizamos para escrever, testar e executar nosso código. Ele nos fornece um ambiente de desenvolvimento colaborativo, onde podemos trabalhar em equipe de forma eficiente e compartilhar nosso progresso em tempo real.
 
-Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
- 
-> **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
-> - [Slack](https://slack.com/)
-> - [Github](https://github.com/)
+Visual Studio Code (VS Code):
+O Visual Studio Code é um editor de código-fonte leve e poderoso que utilizamos para desenvolver e editar nosso código. Com uma ampla gama de extensões disponíveis, o VS Code nos oferece recursos avançados de edição, depuração e controle de versão, ajudando-nos a escrever código de alta qualidade e produtivo.
