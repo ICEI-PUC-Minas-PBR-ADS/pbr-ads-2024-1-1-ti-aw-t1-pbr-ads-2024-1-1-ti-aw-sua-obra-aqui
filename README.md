@@ -6,7 +6,7 @@
 
 `SEMESTRE 1`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O projeto "Obra Aqui" surge como resposta aos desafios enfrentados no setor da construção civil, visando simplificar a comunicação entre empresas, clientes e mão de obra.
 
 ## Integrantes
 
