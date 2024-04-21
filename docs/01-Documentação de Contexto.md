@@ -54,7 +54,7 @@ Entusiastas e Amadores:
 -São pessoas interessadas em realizar pequenos trabalhos por conta própria em suas casas.
 -Podem ter conhecimento básico ou intermediário em construção e manutenção residencial.
 -Geralmente estão dispostos a aprender e buscar orientações técnicas para realizar suas próprias obras com sucesso.
--Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
 
+![PERSONA](docs/img/Captura de tela 2024-04-21 115015.png)
 
 
