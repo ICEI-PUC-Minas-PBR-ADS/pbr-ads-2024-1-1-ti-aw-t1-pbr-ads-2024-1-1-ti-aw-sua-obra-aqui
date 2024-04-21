@@ -3,23 +3,30 @@
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
 
-Visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
-
- Apresente as principais interfaces da plataforma. Discuta como ela foi elaborada de forma a atender os requisitos funcionais, não funcionais e histórias de usuário abordados nas <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a>.
-
 ## User Flow
+Página Inicial:
+A primeira tela que os usuários veem ao acessar a plataforma. Aqui, eles podem encontrar uma visão geral do serviço oferecido e opções para login ou registro.
+
+Dashboard do Usuário:
+Após o login, os usuários são direcionados para o dashboard, onde podem encontrar um resumo das informações relevantes para eles, como tarefas pendentes, orçamentos solicitados, notificações, etc.
+
+Catálogo de Serviços:
+Esta tela exibe uma lista dos serviços oferecidos pela plataforma, com opções de filtragem e pesquisa para facilitar a navegação e a seleção de serviços desejados.
+
+![Exemplo de UserFlow](img/userflow3.jpg)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Detalhes do Serviço:
+Ao selecionar um serviço específico, os usuários são direcionados para uma tela com detalhes mais aprofundados sobre o serviço, incluindo descrição, preço, avaliações de outros usuários, etc.
+
+Solicitação de Orçamento:
+Esta tela permite que os usuários solicitem um orçamento para um serviço específico, preenchendo um formulário com detalhes relevantes e enviando a solicitação para os prestadores de serviço.
+
+Perfil do Usuário:
+Os usuários têm acesso a um perfil personalizado onde podem gerenciar suas informações pessoais, histórico de pedidos, avaliações, preferências de comunicação, etc.
 
 ![Exemplo de UserFlow](img/userflow.jpg)
+
 ![Exemplo de UserFlow](img/userflow2.jpg)
-![Exemplo de UserFlow](img/userflow3.jpg)
-
-Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
-
-> **Links Úteis**:
-> - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 User Flow Tools & Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
-
 
 ## Wireframes
 
