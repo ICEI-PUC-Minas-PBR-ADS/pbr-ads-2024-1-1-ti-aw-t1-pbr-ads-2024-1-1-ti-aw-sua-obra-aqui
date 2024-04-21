@@ -4,12 +4,17 @@ O projeto "Obra Aqui" surge como resposta aos desafios enfrentados no setor da c
 O setor da construção civil enfrenta uma série de desafios relacionados à comunicação entre empresas, clientes e mão de obra. Problemas como a falta de compromisso com prazos, questões de infraestrutura e orçamentos imprecisos são recorrentes e afetam negativamente todas as partes envolvidas. Essas dificuldades muitas vezes resultam em atrasos, custos adicionais e insatisfação geral.
 Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
 
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
+Contexto:
+O setor da construção civil enfrenta desafios na comunicação entre empresas, clientes e mão de obra.
+Observações diretas em uma loja de materiais de construção revelaram reclamações sobre prazos, infraestrutura e orçamentos imprecisos.
 
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+Problema:
+Falta de compromisso com prazos, infraestrutura inadequada e orçamentos imprecisos são problemas recorrentes no setor da construção civil.
+A falta de comunicação eficaz entre as partes envolvidas leva a atrasos, custos adicionais e insatisfação dos clientes.
+
+Solução:
+Desenvolvimento de uma plataforma online, o "Obra Aqui", que conecta empresas, clientes e mão de obra.
+A plataforma oferecerá informações técnicas, facilitará a solicitação de orçamentos e disponibilizará conteúdo educativo para clientes interessados em realizar pequenas obras por conta própria.
 
 ## Objetivos
 
