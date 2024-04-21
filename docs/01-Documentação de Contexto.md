@@ -32,11 +32,6 @@ Através do desenvolvimento deste software, buscamos não apenas simplificar a c
 Além disso, a conscientização dos clientes sobre o andamento e os detalhes de suas obras é essencial para promover a transparência, a confiança e a satisfação do cliente. Ao oferecer ferramentas de acompanhamento em tempo real e relatórios detalhados, pretendemos empoderar os clientes, permitindo que eles participem ativamente do processo de construção e tomem decisões informadas.
 Portanto, a escolha dos objetivos específicos, como melhorar a infraestrutura das construções civis e deixar o cliente "consciente" do que acontece em sua obra, reflete nossa missão de abordar os problemas existentes de forma abrangente e promover uma transformação positiva no setor da construção civil brasileira.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
-
 ## Público-Alvo
 
 Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
