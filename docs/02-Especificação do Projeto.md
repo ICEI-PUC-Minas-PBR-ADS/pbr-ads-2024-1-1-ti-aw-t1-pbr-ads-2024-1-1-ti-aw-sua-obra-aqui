@@ -99,18 +99,25 @@ Requisitos Funcionais (RF):
 
 RF1: Autenticação de Usuário
 Permitir que os usuários façam login na plataforma usando suas credenciais de usuário registradas.
+
 RF2: Cadastro de Usuário
 Possibilitar que novos usuários se cadastrem na plataforma, fornecendo informações como nome, e-mail, senha e outras informações relevantes.
+
 RF3: Gerenciamento de Perfil
 Permitir que os usuários editem e atualizem suas informações de perfil, incluindo dados pessoais e preferências de contato.
+
 RF4: Lista de Tarefas
 Disponibilizar uma funcionalidade onde os usuários possam criar, visualizar, editar e excluir listas de tarefas relacionadas às reformas em suas casas.
+
 RF5: Compartilhamento de Documentos
 Permitir que os usuários compartilhem documentos e informações relevantes com outras partes envolvidas nos projetos, como equipes de trabalho e clientes.
+
 RF6: Notificações
 Implementar um sistema de notificações para alertar os usuários sobre novas tarefas atribuídas, prazos próximos e outras atualizações importantes.
+
 RF7: Inspiração e Ideias
 Fornecer uma seção onde os usuários possam encontrar inspiração e ideias para projetos de reforma em suas casas, incluindo fotos, vídeos e artigos informativos.
+
 RF8: Tutoriais e Guias Passo a Passo
 Oferecer recursos educacionais, tutoriais e guias passo a passo que ajudem os usuários a realizar projetos de reforma específicos com sucesso, mesmo sem experiência prévia.
 
@@ -118,14 +125,19 @@ Requisitos Não Funcionais (RNF):
 
 RNF1: Usabilidade
 Garantir que a interface da aplicação seja intuitiva, de fácil navegação e acessível para usuários com diferentes níveis de habilidade.
+
 RNF2: Desempenho
 Assegurar que a aplicação seja responsiva e tenha tempos de carregamento rápidos, mesmo sob carga pesada de usuários ou em conexões de internet mais lentas.
+
 RNF3: Segurança
 Implementar medidas de segurança robustas, como criptografia de dados e autenticação de dois fatores, para proteger a privacidade e a integridade das informações dos usuários.
+
 RNF4: Confiabilidade
 Garantir que a aplicação seja estável e confiável, minimizando o tempo de inatividade e evitando falhas ou erros inesperados durante o uso.
+
 RNF5: Suporte Multiplataforma
 Certificar-se de que a aplicação seja compatível com uma variedade de dispositivos e sistemas operacionais, incluindo desktops, laptops, tablets e smartphones.
+
 RNF6: Escalabilidade
 Projetar a aplicação com capacidade de escalonamento para lidar com um aumento no número de usuários e volume de dados ao longo do tempo, sem comprometer o desempenho.
 
