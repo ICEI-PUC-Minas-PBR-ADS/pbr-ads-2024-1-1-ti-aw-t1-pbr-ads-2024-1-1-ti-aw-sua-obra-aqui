@@ -1,10 +1,7 @@
 # Introdução
-
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
-
+O projeto "Obra Aqui" surge como resposta aos desafios enfrentados no setor da construção civil, visando simplificar a comunicação entre empresas, clientes e mão de obra. Diante das reclamações recorrentes sobre prazos, infraestrutura e orçamentos imprecisos, a plataforma busca centralizar informações, promover transparência e facilitar o acesso a serviços e materiais necessários para obras residenciais. Seu público-alvo inclui empresas do ramo, clientes em busca de reformas, profissionais qualificados e entusiastas que desejam realizar pequenos trabalhos por conta própria.
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
-
+O setor da construção civil enfrenta uma série de desafios relacionados à comunicação entre empresas, clientes e mão de obra. Problemas como a falta de compromisso com prazos, questões de infraestrutura e orçamentos imprecisos são recorrentes e afetam negativamente todas as partes envolvidas. Essas dificuldades muitas vezes resultam em atrasos, custos adicionais e insatisfação geral.
 Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
 
 Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
