@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border:none;
+    scroll-behavior: smooth;
+    font-family:'Poppins',sans-serif;
+}
+
+
+:root{
+    --bg-color: #ebebec;
+    --second-bg-color:#041464;
+    --text-color:#14448c;
+    --main-color: #7c84ac;
+    
+}
+body.dark .switch::before{
+    left: 25px;
+  }
+  
+  body.dark{
+    --bg-color: black;
+      --second-bg-color:#242526;
+      --text-color:white;
+      --main-color: gray;
+    
+  }
+  
+  body.dark .menu-bar .mode i{
+    position: absolute;
+    transition: var(--tran-03);
+  
+  
+  }
+  
+  body.dark .menu-bar .mode i.sun{
+    opacity: 1;
+  }
+  
+  body.dark .menu-bar .mode i.moon{
+    opacity: 0;
+  }
+  
+
+.main{
+    margin-top: 2rem;
+
+}
+
+.main h2{
+    margin-bottom: 0.8rem;
+}
+
+.main table{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 45%;
+    border-radius: 2rem;
+    padding: 1.8rem;
+   text-align: center;
+   box-shadow: 0 2rem 3rem var(--main-color);
+   transition: all 300ms ease;
+   color: red;
+}
+.main table tbody td{
+    height: 8rem;
+    align-items: center;
+    border-bottom: 1px solid var(--main-color);
+    color: var(--text-color);
+}
+
+.main table tbody tr:last-child td{
+    border:none;
+}
+
+#botaoPiso{
+    position: fixed;
+    transform: translate(-50%, -50%);
+   height: 20px;
+   width: 106px;
+   color: var(--text-color);
+   background: transparent;
+   border-radius: 55px;
+   box-shadow: 0 5px 10px ;
+   cursor: pointer;
+   display: none;
+  
+}
+
+#botaoParede{
+
+    position: fixed;
+    transform: translate(220%, -50%);
+   height: 22px;
+   width: 110px;
+   color: var(--text-color);
+   background: transparent;
+   border-radius: 55px;
+   box-shadow: 0 5px 10px ;
+   cursor: pointer;
+   display: none;
+  
+}
+
+
+#botaoTelhado{
+    right: 0;
+    position: fixed;
+    transform: translate(-130%, -50%);
+   height: 20px;
+   width: 106px;
+   color: var(--text-color);
+   background: transparent;
+   border-radius: 55px;
+   justify-content: space-between;
+   box-shadow: 0 5px 10px ;
+   cursor: pointer;
+   display: none;
+}
+
+
+#linksList{
+  font-size: 0.6rem;
+  list-style:none;
+  align-items: center;
+ left: 2rem;
+}
+
+#linksListParede{
+  font-size: 0.6rem;
+  list-style:none;
+}
+
+#linksListTelhado{
+  font-size: 0.6rem;
+  list-style:none;
+}

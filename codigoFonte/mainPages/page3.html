@@ -1,0 +1,47 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/perfil.css">
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/jwt-decode@3.1.2/build/jwt-decode.min.js"></script>
+    <title>Perfil</title>
+</head>
+<body>
+    
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+
+    <div class="wrapper">
+        <div class="left">
+            <h4></h4>
+            <p></p>
+            <img id="imgProfile" src="">
+            <label for="input-file">Atualizar Foto</label>
+            <input type="file" id="input-file">
+        </div>
+        <div class="right">
+            <div class="info">
+                <h3>Informações</h3>
+                <div class="info_data">
+                    <div class="data">
+                        <h4>Email</h4>
+                        <p id="email"></p>
+                    </div>
+                    <div class="data">
+                        <h4>Nome</h4>
+                        <p id="nome"></p>
+                    </div>
+                    <div id="googleButton"></div>
+                </div>
+                <button id="leave" onclick="logout()">Sair</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="/scripts MainPage/perfil.js"></script>
+
+   
+</body>
+</html>
