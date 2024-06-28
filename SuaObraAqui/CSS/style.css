@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border:none;
+    scroll-behavior: smooth;
+    font-family:'Poppins',sans-serif;
+}
+
+:root{
+    --bg-color: #ebebec;
+    --second-bg-color:#041464;
+    --text-color:#14448c;
+    --main-color: #7c84ac;
+    
+    /* transição animation */
+   --tran-02: all 0.2s ease;
+   --tran-03: all 0.3s ease;
+   --tran-04: all 0.4s ease;
+   --tran-05: all 0.5s ease;
+   
+}
+
+
+
+
+
+/* SideBar */
+.sidebar.text{
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--text-color);
+  transition: var(--tran-04);
+  white-space: nowrap;
+  opacity: 1;
+}
+
+.sidebar .image{
+  min-width: 60px;
+  display: flex;
+  align-items: center;
+  transition: var(--tran-05);
+  animation: delayAparecer 3s forwards;
+
+}
+.sidebar.close .image{
+  display: none;
+}
+
+
+ .sidebar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 250px;
+  padding: 10px 14px;
+  background: var(--second-bg-color);
+  transition: var(--tran-05);
+  z-index: 100;
+  
+ }
+
+
+.sidebar.close{
+  width: 88px;
+}
+
+.sidebar.close .text{
+  opacity: 0;
+}
+
+
+ .sidebar li{
+  height: 50px;
+  margin-top: 10px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+ }
+
+
+ .sidebar li .icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ min-width: 60px;
+ font-size: 25px ;
+ }
+
+ .sidebar li .icon,
+ .sidebar li .text{
+  color: var(--text-color);
+  transition: var(--tran-02);
+
+ }
+
+ .sidebar li a{
+  height: 100%;
+  width: 100%;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: var(--tran-04);
+ }
+
+.siderbar li a:hover{
+  background: red;
+}
+.sidebar li a:hover .icon,
+.sidebar li a:hover .text{
+  color: red;
+}
+
+.sidebar .menu-bar{
+  height: 50rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.menu-bar .mode{
+  background: transparent;
+  position: relative;
+
+}
+
+.menu-bar .mode .moon-sun{
+  height: 60px;
+  width: 60px;
+  display: flex;
+  align-items: center;
+  
+}
+
+.menu-bar .mode i{
+  position: absolute;
+  transition: var(--tran-03);
+
+
+}
+
+.menu-bar .mode i.sun{
+  opacity: 0;
+}
+
+
+
+.menu-bar .mode .toggle-switch{
+  position: absolute;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  min-width: 60px;
+}
+
+ .toggle-switch .switch{
+  position: relative;
+  height: 30px;
+  width: 44px;
+  border-radius: 25px ;
+  background: white;
+ }
+
+.switch::before{
+  content: '';
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  background: var(--main-color);
+  transition: var(--tran-03);
+}
+
+ .sidebar header {
+  position: relative;
+ }
+
+.sidebar header .toggle{
+  position: absolute;
+  top: 50%;
+  right: -25px;
+  background-color: var(--main-color);
+  transform: translateY(-50%);
+ height: 25px;
+ width: 25px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ border-radius: 50%;
+ color: var(--text-color);
+ font-size: 22px;
+  }
+
+#logof{
+  background: transparent;
+  position: absolute;
+}
+
+/* SideBar fim */
+
+
+
+/* Modo escuro  */
+body.dark .switch::before{
+  left: 25px;
+}
+
+body.dark{
+  --bg-color: black;
+    --second-bg-color:#242526;
+    --text-color:white;
+    --main-color: gray;
+  
+}
+
+body.dark .menu-bar .mode i{
+  position: absolute;
+  transition: var(--tran-03);
+
+
+}
+
+body.dark .menu-bar .mode i.sun{
+  opacity: 1;
+}
+
+body.dark .menu-bar .mode i.moon{
+  opacity: 0;
+}
+
+
+
+/* Modo escuro  fim */
+
+body{
+ 
+   height: 100vh;
+    background-color: var(--bg-color);
+    transition: var(--tran-05);
+   background-size: cover;
+   
+   
+
+   
+    
+}
+
+/* Restante da página */
+
+
+/* Restante da página */
+
+
+
+
+
+
+
+/* Keyframes e media*/
+@keyframes delayAparecer {
+   0% { opacity: 0; }
+   100% { opacity: 1; }
+}
+
+

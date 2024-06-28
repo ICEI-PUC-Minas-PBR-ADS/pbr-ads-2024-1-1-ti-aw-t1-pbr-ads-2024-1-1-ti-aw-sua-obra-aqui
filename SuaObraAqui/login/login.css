@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family:'Poppins',sans-serif;
+}
+:root{
+  --bg-color: #ebebec;
+  --second-bg-color:#041464;
+  --text-color:#14448c;
+  --main-color: #7c84ac;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top:  100px;
+}
+.card   {
+    background-color:transparent ;
+    padding: 30px;
+    border-radius: 4%;
+    box-shadow: 3px 3px 1px 0px #00000060;
+    width: 400px;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color: var(--text-color);
+}
+
+.label-float input{
+    width: 100%;
+    padding: 5px 5px;
+    display: inline-block;
+    border: 0;
+    border-bottom: 2px solid var(--main-color);
+    background-color: transparent;
+    outline: none;
+    min-width: 180px;
+    font-size: 16px;
+    transition: all .3s ease-out;
+    border-radius: 0;
+}
+
+.label-float{
+    position: relative;
+    padding-top: 13px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.label-float input:focus{
+    border-bottom: 2px solid #4038a0;
+
+}
+
+.label-float label{
+    color: white;
+    pointer-events:none ;
+    position: absolute;
+    top:0;
+    left: 0;
+    margin-top: 13px;
+    transition: all .3s ease-out;
+}
+
+.label-float input:focus +label,
+.label-float input:valid +label{
+    font-size: 13px;
+    margin-top: 0;
+    color: white;
+    }
+
+    button{
+        background-color: transparent;
+        border-color: var(--text-color);
+        color: var(--bg-color);
+        padding: 7px;
+        font-weight: bold;
+        font-size: 12pt;
+        margin-top: 20px;
+        border-radius: 4px;
+        cursor: pointer;
+        outline: none;
+        transition: all .5s ease-out;
+    }
+
+    button:hover{
+        background-color: transparent;
+        color: red;
+    }
+
+    .justify-center{
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    hr{
+        margin-top:10%;
+        margin-bottom: 10%;
+        width: 60%;
+
+    }
+
+    p{
+        color: var(--bg-color);
+        font-size: 14pt;
+        text-align: center;
+    }
+
+    a{
+        color: var(--text-color);
+        font-weight: bold;
+        text-decoration: none;
+        transition: all .3s ease-out;
+    }
+
+    a:hover{
+    color: red;
+    
+    }
+
+.fa-eye{
+    position: absolute;
+    top: 13px;
+    right: 10px;
+    cursor:pointer;
+    color: black;
+}
+   
+
+
+#msgError{
+    text-align: center;
+    color: #ff0000;
+    background-color: #ffbbbb;
+    padding: 10px;
+    border-radius: 4px;
+    display: none;
+}
+
+
+
+
+
+
+    body {
+        margin: auto;
+        overflow: auto;
+        background: linear-gradient(315deg, var(--text-color) 3%, var(--bg-color) 38%, var(--main-color) 68%, rgb(245, 88, 88) 98%);
+        animation: gradient 15s ease infinite;
+        background-size: 400% 400%;
+        background-attachment: fixed;
+    }
+    
+    @keyframes gradient {
+        0% {
+            background-position: 0% 0%;
+        }
+        50% {
+            background-position: 100% 100%;
+        }
+        100% {
+            background-position: 0% 0%;
+        }
+    }
+    
+    .wave {
+        background: rgb(255 255 255 / 25%);
+        border-radius: 1000% 1000% 0 0;
+        position: fixed;
+        width: 200%;
+        height: 12em;
+        animation: wave 10s -3s linear infinite;
+        transform: translate3d(0, 0, 0);
+        opacity: 0.8;
+        bottom: 0;
+        left: 0;
+        z-index: -1;
+    }
+    
+    .wave:nth-of-type(2) {
+        bottom: -1.25em;
+        animation: wave 18s linear reverse infinite;
+        opacity: 0.8;
+    }
+    
+    .wave:nth-of-type(3) {
+        bottom: -2.5em;
+        animation: wave 20s -1s reverse infinite;
+        opacity: 0.9;
+    }
+    
+    @keyframes wave {
+        2% {
+            transform: translateX(1);
+        }
+    
+        25% {
+            transform: translateX(-25%);
+        }
+    
+        50% {
+            transform: translateX(-50%);
+        }
+    
+        75% {
+            transform: translateX(-25%);
+        }
+    
+        100% {
+            transform: translateX(1);
+        }
+    }
