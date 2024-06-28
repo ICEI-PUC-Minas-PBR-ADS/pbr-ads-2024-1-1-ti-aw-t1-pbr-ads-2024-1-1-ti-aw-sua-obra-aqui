@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sua Obra Aqui!/Parede</title>
+    <link rel="stylesheet" href="paginas.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    
+   
+    <h1 class="aba">PAREDE</h1>
+
+   
+
+        <div class="telacalc">
+            <div class="form" id="form">
+                <h1>Informações</h1>
+                <h2 class="texto">Informe a área:</h2>
+                <input type ="number" id="inputarea" placeholder="Área em m²">
+
+                <h2 class="texto">Material:</h2>
+                <select class="mat" id="material">
+                    <option class="opt" value="alvenaria">Tijolos</option>
+                    <option class="opt" value="drywall">Drywall</option>
+                    <option class="opt" value="madeira">Madeira</option>
+                  </select>
+                  <div class="bottom">
+                    <button onclick="calcular()" class="btn">Calcular ></button>
+                  </div>
+            </div>
+
+            <div class="show">
+                <h1 class="titulo">Orçamento</h1>
+                <h2 class="texto">Resultado</h2>
+                <div id="resultado"></div>
+                <p id="price"></p>
+            </div>
+        </div>
+    </div>
+    
+    
+   
+
+    <script src="scriptParede.js"></script>
+</body>
+</html>
